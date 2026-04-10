@@ -1,7 +1,7 @@
 var data = {
     enchants: {
         protection: {
-            levelMax: "4",
+            levelMax: "6",
             weight: "1",
             incompatible: ["blast_protection", "fire_protection", "projectile_protection"],
             items: ["helmet", "chestplate", "leggings", "boots", "turtle_shell"]
@@ -13,13 +13,13 @@ var data = {
             items: ["helmet", "turtle_shell"]
         },
         bane_of_arthropods: {
-            levelMax: "5",
+            levelMax: "10",
             weight: "1",
             incompatible: ["smite", "sharpness", "density", "breach"],
             items: ["sword", "axe", "mace", "spear"]
         },
         blast_protection: {
-            levelMax: "4",
+            levelMax: "6",
             weight: "2",
             incompatible: ["fire_protection", "protection", "projectile_protection"],
             items: ["helmet", "chestplate", "leggings", "boots", "turtle_shell"]
@@ -37,25 +37,25 @@ var data = {
             items: ["boots"]
         },
         efficiency: {
-            levelMax: "5",
+            levelMax: "10",
             weight: "1",
             incompatible: [],
             items: ["pickaxe", "shovel", "axe", "hoe", "shears"]
         },
         feather_falling: {
-            levelMax: "4",
+            levelMax: "8",
             weight: "1",
             incompatible: [],
             items: ["boots"]
         },
         fire_aspect: {
-            levelMax: "2",
+            levelMax: "4",
             weight: "2",
             incompatible: [],
             items: ["sword", "mace", "spear"]
         },
         fire_protection: {
-            levelMax: "4",
+            levelMax: "6",
             weight: "1",
             incompatible: ["blast_protection", "protection", "projectile_protection"],
             items: ["helmet", "chestplate", "leggings", "boots", "turtle_shell"]
@@ -67,19 +67,19 @@ var data = {
             items: ["bow"]
         },
         fortune: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "2",
             incompatible: ["silk_touch"],
             items: ["pickaxe", "shovel", "axe", "hoe"]
         },
         frost_walker: {
-            levelMax: "2",
+            levelMax: "4",
             weight: "2",
             incompatible: ["depth_strider"],
             items: ["boots"]
         },
         impaling: {
-            levelMax: "5",
+            levelMax: "10",
             weight: "2",
             incompatible: [],
             items: ["trident"]
@@ -91,37 +91,37 @@ var data = {
             items: ["bow"]
         },
         knockback: {
-            levelMax: "2",
+            levelMax: "4",
             weight: "1",
             incompatible: [],
             items: ["sword", "spear"]
         },
         looting: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "2",
             incompatible: [],
             items: ["sword", "spear"]
         },
         loyalty: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "1",
             incompatible: ["riptide"],
             items: ["trident"]
         },
         luck_of_the_sea: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "2",
             incompatible: [],
             items: ["fishing_rod"]
         },
         lunge: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "1",
             incompatible: [],
             items: ["spear"]
         },
         lure: {
-            levelMax: "3",
+            levelMax: "5",
             weight: "2",
             incompatible: [],
             items: ["fishing_rod"]
@@ -142,49 +142,49 @@ var data = {
             items: ["crossbow"]
         },
         piercing: {
-            levelMax: "4",
+            levelMax: "8",
             weight: "1",
             incompatible: ["multishot"],
             items: ["crossbow"]
         },
         power: {
-            levelMax: "5",
+            levelMax: "10",
             weight: "1",
             incompatible: [],
             items: ["bow"]
         },
         projectile_protection: {
-            levelMax: "4",
+            levelMax: "6",
             weight: "1",
             incompatible: ["protection", "blast_protection", "fire_protection"],
             items: ["helmet", "chestplate", "leggings", "boots", "turtle_shell"]
         },
         punch: {
-            levelMax: "2",
+            levelMax: "4",
             weight: "2",
             incompatible: [],
             items: ["bow"]
         },
         quick_charge: {
-            levelMax: "3",
+            levelMax: "5",
             weight: "1",
             incompatible: [],
             items: ["crossbow"]
         },
         respiration: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "2",
             incompatible: [],
             items: ["helmet", "turtle_shell"]
         },
         riptide: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "2",
             incompatible: ["channeling", "loyalty"],
             items: ["trident"]
         },
         sharpness: {
-            levelMax: "5",
+            levelMax: "10",
             weight: "1",
             incompatible: ["bane_of_arthropods", "smite"],
             items: ["sword", "axe", "spear"]
@@ -196,37 +196,37 @@ var data = {
             items: ["pickaxe", "shovel", "axe", "hoe"]
         },
         smite: {
-            levelMax: "5",
+            levelMax: "10",
             weight: "1",
             incompatible: ["bane_of_arthropods", "sharpness", "density", "breach"],
             items: ["sword", "axe", "mace", "spear"]
         },
         soul_speed: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "4",
             incompatible: [],
             items: ["boots"]
         },
         sweeping: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "2",
             incompatible: [],
             items: ["sword"]
         },
         swift_sneak: {
-            levelMax: "3",
+            levelMax: "4",
             weight: "4",
             incompatible: [],
             items: ["leggings"]
         },
         thorns: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "4",
             incompatible: [],
             items: ["helmet", "chestplate", "leggings", "boots", "turtle_shell"]
         },
         unbreaking: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "1",
             incompatible: [],
             items: ["helmet", "chestplate", "leggings", "boots", "pickaxe", "shovel", "axe", "sword", "hoe", "brush", "fishing_rod",
@@ -250,19 +250,19 @@ var data = {
             ]
         },
         density: {
-            levelMax: "5",
+            levelMax: "10",
             weight: "1",
             incompatible: ["breach", "smite", "bane_of_arthropods"],
             items: ["mace"]
         },
         breach: {
-            levelMax: "4",
+            levelMax: "6",
             weight: "2",
             incompatible: ["density", "smite", "bane_of_arthropods"],
             items: ["mace"]
         },
         wind_burst: {
-            levelMax: "3",
+            levelMax: "6",
             weight: "2",
             incompatible: [],
             items: ["mace"]
